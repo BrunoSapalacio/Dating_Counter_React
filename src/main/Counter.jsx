@@ -31,7 +31,6 @@ export default class Counter extends Component {
     if (days / 365 >= 1) {
       this.setState({ display2: { display: "block" } });
       this.setState({ achievement: "You have been together for " });
-      console.log(this.state.years, "ola");
     } else {
       this.setState({ display2: { display: "none" } });
       this.setState({ achievement: "" });
@@ -39,14 +38,15 @@ export default class Counter extends Component {
     this.calc();
   }
 
-  calc() {
-    if (this.state.data === 0) {
+  calc(e) {
+    if(!this.state.data) {
       Swal.fire({
         icon: "warning",
         title: "Oops...",
         text: "Enter a date!",
         confirmButtonColor: "#FF9A8B",
       });
+      this.setState({ display1: { display: "none" } }); 
     } else {
       this.setState({ display1: { display: "block" } });
       this.setState({ result: "You are together for " });
