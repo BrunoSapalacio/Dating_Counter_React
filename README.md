@@ -1,3 +1,12 @@
+<div align="center">
+  
+# Dating Counter
+ This project is a new react version of my first [project](https://github.com/BrunoSapalacio/Contador_de_Namoro) created in javascript.
+  
+![CounterREACT2](https://user-images.githubusercontent.com/64747697/168406503-a4e0a30f-400a-4715-a407-f8c74072c1ec.png)
+  
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
