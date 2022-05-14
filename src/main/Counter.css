@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+a {
+    color: #fff !important;
+}
+
+h1,
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.datingCounter {
+    max-width: 80%;
+    width: 500px;
+}
+
+.box {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+    border: 2px solid #FF9A8B;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    background-color: #FF9A8B;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.result {
+    display: none;
+}
+
+.res {
+    text-align: center;
+    margin: 10px;
+}
+
+.achievement {
+    border: 2px solid #FF9A8B;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
